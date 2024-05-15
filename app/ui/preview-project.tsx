@@ -4,13 +4,13 @@ export default function PreviewProject() {
       <div className="w-full h-32 mx-auto bg-slate-700"></div>
       <p className="">direct chat app provides a set of tools to communicate</p>
       <div className="flex gap-2 mb-2 pl-2">
-        <span className="bg-purple-400 text-purple-700 py-0.5 px-1 rounded-lg">
-          laying out
+        <span className="odd:bg-zinc-100 even:bg-white text-zinc-800 border border-zinc-400 py-0.5 px-2 rounded-lg">
+          markup
         </span>
-        <span className="bg-amber-400 text-amber-700 py-0.5 px-1 rounded-lg">
+        <span className="odd:bg-zinc-100 even:bg-white text-zinc-800 border border-zinc-400 py-0.5 px-2 rounded-lg">
           nextjs
         </span>
-        <span className="bg-red-400 text-red-700 py-0.5 px-1 rounded-lg">
+        <span className="odd:bg-zinc-100 even:bg-white text-zinc-800 border border-zinc-400 py-0.5 px-2 rounded-lg">
           typescript
         </span>
       </div>
