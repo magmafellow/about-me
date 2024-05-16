@@ -9,7 +9,7 @@ export default function Home() {
         <h1 className="text-2xl font-semibold">Alex Romanov Projects</h1>
       </header>
       <main>
-        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4">
+        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-2 px-1">
           {arr.map((temp) => <PreviewProject />)}
         </section>
       </main>
