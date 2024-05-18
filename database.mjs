@@ -1,5 +1,7 @@
-import { Pool } from "pg";
+import pkg from "pg";
 import dbSecret from './key.mjs'
+
+const { Pool } = pkg
 
 const configForDatabase = {
   database: 'postgres',
