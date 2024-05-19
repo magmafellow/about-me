@@ -1,20 +1,21 @@
 import { z } from 'zod'
 
-export type project = {
-  readonly id: string
+export type Project = {
+  readonly id: number
   name: string
   description: string
   path: string
+  preview_img_path: string
 }
 
-export type tag = {
-  readonly id: string
+export type Tag = {
+  readonly id: number
   name: string
   description?: string
 }
 
-export type project_tag = {
-  readonly id: string
+export type Project_Tag = {
+  readonly id: number
   project_id: string
   tag_id: string
 }

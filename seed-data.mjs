@@ -59,6 +59,9 @@ async function main(){
   await addProjectsTags()
 
   info('program has finished.')
+
+  
+  await pool.end()
 }
 
 main()
