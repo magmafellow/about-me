@@ -11,7 +11,7 @@ export default function Page() {
         <div className="mb-2 md:mb-4 lg:mb-5">
           <span className="">Telegram: </span>
           <span className="text-emerald-200 bg-emerald-800 py-0.5 px-1 rounded-md">
-            polrekost
+            @polrekost
           </span>
         </div>
         <div className='mb-3 md:mb-4 lg:mb-5'>

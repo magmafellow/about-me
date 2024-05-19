@@ -6,14 +6,16 @@ export default function Page(){
       <Header />
       <main className="px-3">
         <section className="grid justify-start mb-4 grid-cols-1 gap-y-3 grid-rows-1 md:grid-cols-2 md:grid-rows-1">
-          <div className="w-[300px] h-[300px] mx-auto bg-yellow-800 overflow-hidden rounded-2xl overflow-hidden">
+          <div className="w-[300px] h-[300px] mx-auto bg-yellow-800 overflow-hidden rounded-2xl">
             <img className="w-full h-full object-cover object-center" src="/me-bycicle.jpg" alt="me" />
           </div>
           <div>
             <p className="mb-4">Hello every one! I am Alex. And I am a software engineer</p>
+            <p className="mb-4">Homecountry is Russia🇷🇺. I live in Moscow. I am of 19 years old</p>
             <p className="mb-4">I have been working on my projects for 3 months already</p>
             <p className="mb-4">My learning have been lasting aproximately 3 years</p>
             <p className="mb-4">I am interested in web development frontend as well backend. So I am well aware of both. It would be good to be a fullstack</p>
+            <p className="mb-4">Like to pass through different and hard challenges. I enjoy coding 😀</p>
           </div>
         </section>
         <div className="font-semibold text-lg">My preferred stack:</div>
@@ -23,6 +25,14 @@ export default function Page(){
           <li className="mb-1 text-xl text-sky-800">Javascript (Typescript)</li>
           <li className="mb-1 text-xl text-sky-800">PostgreSQL</li>
           <li className="mb-1 text-xl text-sky-800">Tailwindcss</li>
+        </ul>
+        <div className="font-semibold text-lg">My hobbies:</div>
+        <ul className="pl-3 md:pl-5 lg:pl-7 xl:pl-10 font-medium">
+        <li className="mb-1 text-xl text-amber-800">Bycicling</li>
+          <li className="mb-1 text-xl text-amber-800">GYM</li>
+          <li className="mb-1 text-xl text-amber-800">Chess</li>
+          <li className="mb-1 text-xl text-amber-800">Swiming</li>
+          <li className="mb-1 text-xl text-amber-800">Volleyball</li>
         </ul>
       </main>
     </>
