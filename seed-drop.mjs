@@ -19,3 +19,5 @@ async function main(){
 }
 
 main()
+
+export const one = 1

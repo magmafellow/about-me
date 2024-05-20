@@ -1,4 +1,4 @@
-import '@/seed-structure.mjs'
+import { one } from '@/seed-structure.mjs'
 
 export default function Page() {
   return (
