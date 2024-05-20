@@ -1,4 +1,5 @@
 import { getAllTagsByProjectId, getProjectById } from '@/app/lib/data'
+import { FaGithub } from 'react-icons/fa'
 
 export default async function PreviewProject({
   projectId,
@@ -44,6 +45,12 @@ export default async function PreviewProject({
           href={`${project.path}`}
         >
           website
+        </a>
+        <a
+          className=""
+          href={`${project.repo}`}
+        >
+          <FaGithub className='text-2xl hover:text-sky-700 transition' />
         </a>
       </div>
       {/* <div className="w-full h-[1px] bg-slate-700"></div> */}

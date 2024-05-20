@@ -20,6 +20,7 @@ async function createProjectTable(){
         name VARCHAR(30) NOT NULL,
         description TEXT,
         path VARCHAR(200) NOT NULL,
+        repo VARCHAR(200) NOT NULL,
         preview_img_path VARCHAR(200)
       )`
     )

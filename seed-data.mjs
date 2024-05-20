@@ -5,11 +5,11 @@ async function addProjects() {
   try {
     info('trying to seed projects')
     await pool.query(
-      `INSERT INTO project (name, description, path, preview_img_path) VALUES
-      ('direct_chat', 'A web app that provides functionality to message interesting people', 'https://github.com/magmafellow/direct-chat', '/direct-chat_preview.jpeg'),
-      ('murkup-dtsd', 'A website that shows my skills of laying out html pages', 'https://magmafellow.github.io/murkup-DTSD/', '/murkup-dtsd_preview.jpeg'),
-      ('markup-book-store', 'A website that shows my skills of laying out html pages', 'https://magmafellow.github.io/markup-book-store/', '/marukup-book-store_preview.jpeg'),
-      ('markup-explore-the-nature', 'A website that shows my skills of laying out html pages', 'https://magmafellow.github.io/markup-explore-the-nature/', '/markup-explore-the-nature_preview.jpeg')
+      `INSERT INTO project (name, description, path, repo, preview_img_path) VALUES
+      ('direct_chat', 'A web app that provides functionality to message interesting people', 'yet not', 'https://github.com/magmafellow/direct-chat', '/direct-chat_preview.png'),
+      ('markup-dtsd', 'A website that shows my skills of laying out html pages', 'https://magmafellow.github.io/murkup-DTSD/', 'https://github.com/magmafellow/murkup-DTSD', '/murkup-dtsd_preview.png'),
+      ('markup-book-store', 'A website that shows my skills of laying out html pages', 'https://magmafellow.github.io/markup-book-store/', 'https://github.com/magmafellow/markup-book-store', '/markup-book-store_preview.png'),
+      ('markup-explore-the-nature', 'A website that shows my skills of laying out html pages', 'https://magmafellow.github.io/markup-explore-the-nature/', 'https://github.com/magmafellow/markup-explore-the-nature', '/markup-explore-the-nature_preview.png')
       `
     )
     success('seeded projects data')
