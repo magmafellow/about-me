@@ -1,5 +1,5 @@
 import pkg from "pg";
-import dbSecret from './key.mjs'
+// import dbSecret from './key.mjs'
 
 const { Pool } = pkg
 
