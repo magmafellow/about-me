@@ -14,7 +14,7 @@ export default async function PreviewProject({
 
   return (
     <div className="mb-4">
-      <div className="w-full h-[200px] rounded-md overflow-hidden border border-slate-700 mx-auto mb-2">
+      <div img-wrap='working' className="w-full rounded-md overflow-hidden border border-slate-700 mx-auto mb-2">
         <img
           className="object-cover object-center w-full h-full"
           src={project.preview_img_path}

@@ -1,4 +1,3 @@
-import { one } from '@/seed-structure.mjs'
 
 export default function Page() {
   return (

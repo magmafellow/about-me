@@ -1,4 +1,5 @@
 import { FaGithub } from 'react-icons/fa'
+import { FaExternalLinkAlt } from "react-icons/fa";
 import { getProjectById } from '@/app/lib/data'
 import Header from '@/app/ui/header'
 
@@ -18,8 +19,9 @@ export default async function Page({
             <img src={project?.preview_img_path} alt="preview image" />
           </div>
           <div>
-            <h1 className="text-2xl text-center font-medium mb-1">
+            <h1 className="text-2xl flex justify-center items-center gap-2 lg:gap-4 text-center font-medium mb-1">
               {project?.name}
+              <a href={project?.path}><FaExternalLinkAlt className='text-xl lg:text-lg hover:text-sky-300 transition' /></a>
             </h1>
             <p className="w-[70%] mx-auto">{project?.description}</p>
           </div>
