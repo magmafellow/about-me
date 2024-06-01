@@ -15,7 +15,6 @@ export default function Header() {
         <h1 className={clsx(
           "text-2xl font-semibold",
           {
-            'text-rose-800': pathname === '/about-me',
             'drop-shadow-md': pathname === '/about-me'
           }
         )}><Link href="/about-me">Alex Romanov</Link></h1>
